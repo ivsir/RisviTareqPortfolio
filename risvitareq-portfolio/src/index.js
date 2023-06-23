@@ -107,25 +107,20 @@ const About = (props) => {
       <div className="wrapper">
         <article>
           <div className="title">
-            <h3>Who's this guy?</h3>
+            <h3>About Me</h3>
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Yago.</h4>
+            <h4 className="subtitle">My name is Risvi Tareq.</h4>
             <p>
-              I am a web developer and UX designer based in the beautiful west
-              coast of Spain, Galicia.
+              I am a Full Stack Web Developer based in San Diego, California.
             </p>
             <p>
-              I really enjoy solving problems as well as making things pretty
-              and easy to use. I can't stop learning new things; the more, the
-              better. I also love photography, a hobby I'm taking along since
-              the good old film cameras. Oh, and rice with milk; I have a
-              passion for rice with milk!
+              I also like to make music.  I market my beats on the internet as a side hustle and make money from music royalties. I edit and upload videos on YouTube. I dabble in graphic design for cover arts.
             </p>
           </div>
           <div className="title">
-            <h3>What does he do?</h3>
+            <h3>SKILLS</h3>
             <p className="separator" />
           </div>
           <div className="desc">
