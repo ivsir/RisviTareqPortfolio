@@ -75,8 +75,8 @@ const Nav = (props) => {
 const Header = (props) => {
   return (
     <header id="welcome-section">
-      <div className="forest" />
       <div className="silhouette" />
+      <div className="forest" />
       <div className="moon" />
       <div className="container">
         <h1>
