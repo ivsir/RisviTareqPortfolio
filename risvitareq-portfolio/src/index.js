@@ -236,7 +236,7 @@ const Projects = (props) => {
           <Project
             title="CodeCollab"
             img={
-              "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/AnonMsgBoard.jpg"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/cc.png?raw=true"
             }
             tech="js css react node"
             link="https://code-collab-dallas.herokuapp.com/"
