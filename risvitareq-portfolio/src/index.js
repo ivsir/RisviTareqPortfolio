@@ -113,7 +113,7 @@ const About = (props) => {
           <div className="desc full">
             <h4 className="subtitle">My name is Risvi Tareq.</h4>
             <p>
-              I am a Full Stack Web Developer based in San Diego, California.
+              I am a Full Stack Developer based in San Diego, California.
             </p>
             <p>
               I also like to make music.  I market my beats on the internet as a side hustle and make money from music royalties. I edit and upload videos on YouTube. I dabble in graphic design for cover arts.
