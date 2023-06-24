@@ -484,8 +484,8 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
-  /* background: url(https://png.pngtree.com/element_our/20190524/ourmid/pngtree-hand-drawn-cartoon-cute-sun-png-element-image_1096852.jpg) right 150% no-repeat; */
+  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat; */
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun.jpg?raw=true) right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
