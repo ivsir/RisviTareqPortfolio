@@ -149,6 +149,7 @@ const About = (props) => {
               <li>NodeJS</li>
               <li>MySQL</li>
               <li>NoSQL</li>
+              <li>Handlebars</li>
               <li>GraphQL</li>
               <li>Git</li>
               <li>Adobe Photoshop</li>
@@ -246,7 +247,7 @@ const Projects = (props) => {
               Built using MongoDB, GraphQL, React, NodeJS and Express
             </small>
             <p>
-              This is a full-stack website me and my cohorts had built by collaborating on Zoom and Git. 
+              This is a full-stack website my cohorts and I had built by collaborating on Zoom and Git. 
               It is a social media website where coders can create an account or login, upload projects, join projects and comment on projects.
               My  primary role on this project was to set up the schemas in the back end and enable the front end to facilitate user data and info to the back end.
             </p>
@@ -264,7 +265,7 @@ const Projects = (props) => {
               Built using Wordpress
             </small>
             <p>
-              I was responsible for creating the full website using wordpress. This website was intended to inform the public on issues going on in the ocean and attract donors to keep the non-profit organization running.
+              I was responsible for the design and development of the full website. This website was intended to inform the public on issues going on in the ocean and attract donors to keep the non-profit organization running.
             </p>
           </Project>
           <Project
@@ -277,13 +278,13 @@ const Projects = (props) => {
             repo="https://github.com/DallasSybrowsky/Bibliomania"
           >
             <small>
-              Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap
-              and Pug.
+              Built using Node, Express, Handlebars, MySQL & Sequelize ORM, and a third-party API called openlibrary.
             </small>
             <p>
-              A full-stack website to store book titles and comments to each
-              book into a remote database.
+              Bibliomania is a full-stack website created by my cohorts and I. It is an app where users can login or sign up. Users can essentially judge a book by its cover. A book is randomly generated and users can like or dislike the book. A liked book gets added to the user's library. Every time a book is either liked or disliked, a new random book is displayed.
+
             </p>
+            <p>I was in charge of connecting the API to the front end and helped set up the third party APi to send information to the back end. The information was then saved to a database or a REST API. </p>
           </Project>
           <Project
             title="Power Quiz"
@@ -291,16 +292,14 @@ const Projects = (props) => {
               "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/IssueTracker.jpg"
             }
             tech="js node css"
-            link="https://yagoestevez-issue-tracker.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-issue-tracker"
+            link="https://ivsir.github.io/Power-Quiz/"
+            repo="https://github.com/ivsir/Power-Quiz"
           >
             <small>
-              Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap
-              and Pug.
+              Built using HTML, CSS and Vanilla Javascript
             </small>
             <p>
-              Yet another full-stack app to save and manage technical issues to
-              be fixed.
+              My first Javascript quiz application that allows users to save their scores and compare their score to other users. The scores are ordered from highest to lowest.
             </p>
           </Project>
           <Project
@@ -308,9 +307,9 @@ const Projects = (props) => {
             img={
               "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg"
             }
-            tech="js node css"
-            link="https://yagoestevez-metric-imperial-converter.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-metric-imperial-converter/"
+            tech="js html css 3rd party api"
+            link="https://agarfar.github.io/a-night-in/"
+            repo="https://github.com/agarfar/a-night-in"
           >
             <small>
               Built using Node, Express, JS + jQuery, CSS + Bootstrap and Pug.
