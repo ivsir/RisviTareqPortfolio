@@ -243,30 +243,28 @@ const Projects = (props) => {
             repo="https://github.com/DallasSybrowsky/CodeCollab"
           >
             <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and
-              React Router.
+              Built using MongoDB, GraphQL, React, NodeJS and Express
             </small>
             <p>
-              This is a full-stack website that I made which lets the users read
-              and post anonymous messages and replies.
+              This is a full-stack website me and my cohorts had built by collaborating on Zoom and Git. 
+              It is a social media website where coders can create an account or login, upload projects, join projects and comment on projects.
+              My  primary role on this project was to set up the schemas in the back end and enable the front end to facilitate user data and info to the back end.
             </p>
           </Project>
           <Project
             title="Clear Blue Sea"
             img={
-              "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/clearbluesea.png?raw=true"
             }
-            tech="js node css"
-            link="https://yagoestevez-stock-price-checker.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-stock-price-checker"
+            tech="wordpress"
+            link="https://dev.clearbluesea.org/"
+            repo="https://dev.clearbluesea.org/"
           >
             <small>
-              Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS +
-              Bootstrap and Pug.
+              Built using Wordpress
             </small>
             <p>
-              Another full-stack website to check the current value of any
-              requested stock in the market.
+              I was responsible for creating the full website using wordpress. This website was intended to inform the public on issues going on in the ocean and attract donors to keep the non-profit organization running.
             </p>
           </Project>
           <Project
@@ -275,8 +273,8 @@ const Projects = (props) => {
               "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/PersonalLibrary.jpg"
             }
             tech="js node css"
-            link="https://yagoestevez-personal-library.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-personal-library"
+            link="https://bibliomania.herokuapp.com/"
+            repo="https://github.com/DallasSybrowsky/Bibliomania"
           >
             <small>
               Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap
