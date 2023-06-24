@@ -114,9 +114,13 @@ const About = (props) => {
             <h4 className="subtitle">My name is Risvi Tareq.</h4>
             <p>I am a Full Stack Developer based in San Diego, California.</p>
             <p>
-              I am currently the webmaster for Clear Blue Sea, a non-profit organization. I also produced music profesionally. I have amassed over 40,000,00 streams collectively through all the songs I have produced. I have marketed my beats on the internet as a
-              side hustle and make money from music royalties. I get bored of making music sometimes, so I looked to web development to apply my creativity in a more challenging avenue.
-              videos on YouTube.
+              I am currently the webmaster for Clear Blue Sea, a non-profit
+              organization. I also produced music profesionally. I have amassed
+              over 40,000,00 streams collectively through all the songs I have
+              produced. I have marketed my beats on the internet as a side
+              hustle and make money from music royalties. I get bored of making
+              music sometimes, so I looked to web development to apply my
+              creativity in a more challenging avenue. videos on YouTube.
             </p>
           </div>
           <div className="title">
@@ -131,7 +135,8 @@ const About = (props) => {
               <li>REST APIs</li>
               <li>AGILE Development</li>
               <li>Graphic Design</li>
-              <li>convert eFiles in adherence to IRS XML Standardization rules
+              <li>
+                convert eFiles in adherence to IRS XML Standardization rules
               </li>
             </ul>
           </div>
@@ -230,7 +235,8 @@ const Projects = (props) => {
           <h3 className="title">My Work</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of my best personal projects and professional work I have done.
+            Here's a list of my best personal projects and professional work I
+            have done.
           </p>
         </div>
         <div className="projects-wrapper">
@@ -247,9 +253,12 @@ const Projects = (props) => {
               Built using MongoDB, GraphQL, React, NodeJS and Express
             </small>
             <p>
-              This is a full-stack website my cohorts and I had built by collaborating on Zoom and Git. 
-              It is a social media website where coders can create an account or login, upload projects, join projects and comment on projects.
-              My  primary role on this project was to set up the schemas in the back end and enable the front end to facilitate user data and info to the back end.
+              This is a full-stack website my cohorts and I had built by
+              collaborating on Zoom and Git. It is a social media website where
+              coders can create an account or login, upload projects, join
+              projects and comment on projects. My primary role on this project
+              was to set up the schemas in the back end and enable the front end
+              to facilitate user data and info to the back end.
             </p>
           </Project>
           <Project
@@ -261,65 +270,75 @@ const Projects = (props) => {
             link="https://dev.clearbluesea.org/"
             repo="https://dev.clearbluesea.org/"
           >
-            <small>
-              Built using Wordpress
-            </small>
+            <small>Built using Wordpress</small>
             <p>
-              I was responsible for the design and development of the full website. This website was intended to inform the public on issues going on in the ocean and attract donors to keep the non-profit organization running.
+              I was responsible for the design and development of the full
+              website. This website was intended to inform the public on issues
+              going on in the ocean and attract donors to keep the non-profit
+              organization running.
             </p>
           </Project>
           <Project
             title="Bibliomania"
             img={
-              "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/PersonalLibrary.jpg"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/bilbiomania2.png?raw=true"
             }
             tech="js node css"
             link="https://bibliomania.herokuapp.com/"
             repo="https://github.com/DallasSybrowsky/Bibliomania"
           >
             <small>
-              Built using Node, Express, Handlebars, MySQL & Sequelize ORM, and a third-party API called openlibrary.
+              Built using Node, Express, Handlebars, MySQL & Sequelize ORM, and
+              a third-party API called openlibrary.
             </small>
             <p>
-              Bibliomania is a full-stack website created by my cohorts and I. It is an app where users can login or sign up. Users can essentially judge a book by its cover. A book is randomly generated and users can like or dislike the book. A liked book gets added to the user's library. Every time a book is either liked or disliked, a new random book is displayed.
-
+              Bibliomania is a full-stack website created by my cohorts and I.
+              It is an app where users can login or sign up. Users can
+              essentially judge a book by its cover. A book is randomly
+              generated and users can like or dislike the book. A liked book
+              gets added to the user's library. Every time a book is either
+              liked or disliked, a new random book is displayed.
             </p>
-            <p>I was in charge of connecting the API to the front end and helped set up the third party APi to send information to the back end. The information was then saved to a database or a REST API. </p>
+            <p>
+              I was in charge of connecting the API to the front end and helped
+              set up the third party APi to send information to the back end.
+              The information was then saved to a database or a REST API.{" "}
+            </p>
           </Project>
           <Project
             title="Power Quiz"
             img={
-              "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/IssueTracker.jpg"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/power%20quiz.png?raw=true"
             }
             tech="js node css"
             link="https://ivsir.github.io/Power-Quiz/"
             repo="https://github.com/ivsir/Power-Quiz"
           >
-            <small>
-              Built using HTML, CSS and Vanilla Javascript
-            </small>
+            <small>Built using HTML, CSS and Vanilla Javascript</small>
             <p>
-              My first Javascript quiz application that allows users to save their scores and compare their score to other users. The scores are ordered from highest to lowest.
+              My first Javascript quiz application that allows users to save
+              their scores and compare their score to other users. The scores
+              are ordered from highest to lowest.
             </p>
           </Project>
           <Project
             title="A Night In"
             img={
-              "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/a%20night%20in.png?raw=true"
             }
             tech="js html css 3rd party api"
             link="https://agarfar.github.io/a-night-in/"
             repo="https://github.com/agarfar/a-night-in"
           >
             <small>
-              Built using Node, Express, JS + jQuery, CSS + Bootstrap and Pug.
+              Built using JavaScript, HTML, CSS and a third-party API
             </small>
             <p>
-              Another full-stack for converting values from the Internation
-              System of Units (Metric) into the imperial units.
+              A Javascript app that utilizes a third-party API to generate
+              recipes for dinner and drink combinations for users who are
+              indecisive about what to eat at home.
             </p>
           </Project>
-        
         </div>
       </div>
     </section>
@@ -343,10 +362,7 @@ const Contact = (props) => {
             <p className="separator" />
             <p className="subtitle">
               Please, use the form below or send an email to {""}
-              <span className="mail">
-                risvi.tareq@clearbluesea.com
-              </span>
-              :
+              <span className="mail">risvi.tareq@clearbluesea.com</span>:
             </p>
           </div>
           <SocialLinks />

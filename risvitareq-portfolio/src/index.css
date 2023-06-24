@@ -35,7 +35,7 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #f300b4;
+  color: #344467;
 }
 
 
@@ -215,7 +215,7 @@ a:active {
 
 .menu-container ul li a:hover::after {
   content: ' »';
-  color: #f300b4;
+  color: #344467;
 }
 
 .social {
@@ -234,7 +234,7 @@ a:active {
 
 .menu-container a:hover,
 .menu-container a:active {
-  color: #f300b4;
+  color: #344467;
 }
 
 @media only screen and (max-width: 649px) {
@@ -303,7 +303,7 @@ a:active {
 }
 
 #navbar.bg-active {
-  background: #010101;
+  background: #181d23;
 }
 
 #navbar .nav-wrapper {
@@ -442,7 +442,7 @@ a:active {
   opacity: 0;
   animation: forest-move-in 1000ms 500ms forwards;
   /* border-bottom: 300px solid #181d23; */
-  border-bottom: 300px solid #010101;
+  border-bottom: 300px solid #181d23;
 }
 
 @keyframes forest-move-in {
@@ -784,7 +784,7 @@ a:active {
 }
 
 #projects .heading .separator {
-  background: #f300b4;
+  background: #344467;
   width: 150px;
   height: 2px;
   margin: 1rem auto;
@@ -848,7 +848,7 @@ a:active {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
-  color: #f300b4;
+  color: #344467;
 }
 
 /* Icons */
@@ -1019,11 +1019,11 @@ input[type="email"]:focus,
 input[type="text"]:not(output):focus,
 input[type="email"]:not(output):focus,
 textarea:focus {
-  border-bottom: 1px solid #f300b4;
+  border-bottom: 1px solid #344467;
 }
 
 input[type="submit"] {
-  background: #f300b4;
+  background: #344467;
   color: #fafafa;
   margin-top: 1rem;
   width: auto;
@@ -1050,7 +1050,7 @@ input[type="submit"]:focus {
 .mail .at, .mail .dot {
   font-size: .9rem;
   margin: 0 .1rem;
-  color: #f300b4;
+  color: #344467;
 }
 
 
