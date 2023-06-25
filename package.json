@@ -2,7 +2,7 @@
   "name": "risvitareqportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivsir.github.io/RisviTareqPortfolio/",
+  "homepage": "https://github.com/ivsir/RisviTareqPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
