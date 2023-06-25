@@ -130,14 +130,17 @@ const About = (props) => {
           <div className="desc">
             <h4 className="subtitle">Hard Skills</h4>
             <ul>
+              <li>
+                convert eFiles in adherence to the IRS XML Standardization rules
+              </li>
+              <li>
+                understanding of class words, class word abbreviations and complexTypes for standardized XML elements
+              </li>
               <li>Full-Stack Websites</li>
               <li>Wordpress Websites</li>
               <li>REST APIs</li>
               <li>AGILE Development</li>
               <li>Graphic Design</li>
-              <li>
-                convert eFiles in adherence to the IRS XML Standardization rules
-              </li>
             </ul>
           </div>
           <div className="desc">
@@ -243,7 +246,7 @@ const Projects = (props) => {
           <Project
             title="CodeCollab"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/cc.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/cc.png?raw=true"
             }
             tech="js css react node"
             link="https://code-collab-dallas.herokuapp.com/"
@@ -264,7 +267,7 @@ const Projects = (props) => {
           <Project
             title="Clear Blue Sea"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/clearbluesea.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/clearbluesea.png?raw=true"
             }
             tech="wordpress"
             link="https://dev.clearbluesea.org/"
@@ -281,7 +284,7 @@ const Projects = (props) => {
           <Project
             title="Bibliomania"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/bilbiomania2.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/bilbiomania2.png?raw=true"
             }
             tech="js node css"
             link="https://bibliomania.herokuapp.com/"
@@ -308,7 +311,7 @@ const Projects = (props) => {
           <Project
             title="Power Quiz"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/power%20quiz.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/power%20quiz.png?raw=true"
             }
             tech="js node css"
             link="https://ivsir.github.io/Power-Quiz/"
@@ -324,7 +327,7 @@ const Projects = (props) => {
           <Project
             title="A Night In"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/a%20night%20in.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/a%20night%20in.png?raw=true"
             }
             tech="js html css 3rd party api"
             link="https://agarfar.github.io/a-night-in/"
@@ -378,21 +381,6 @@ const Contact = (props) => {
   );
 };
 
-/***********************
-    Footer Component
-   ***********************/
-
-const Footer = (props) => {
-  return (
-    <footer>
-      <div className="wrapper">
-        <h3>THANKS FOR VISITING</h3>
-        <p>© {new Date().getFullYear()} Risvi Tareq</p>
-        <SocialLinks />
-      </div>
-    </footer>
-  );
-};
 
 /***********************
     Social Links Component
@@ -461,7 +449,6 @@ class App extends React.Component {
         <About />
         <Projects />
         <Contact />
-        <Footer />
       </React.Fragment>
     );
   }

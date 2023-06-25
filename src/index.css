@@ -9,8 +9,6 @@
   box-sizing: border-box;
 }
 
-/* @import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script'; */
-/* @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;1,600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,600&display=swap');
 
 html, body {
@@ -21,8 +19,6 @@ body {
   color: #252934;
   background: #fafafa;
   font-size: 62.5%;
-  /* font-family: 'Overlock', Arial, Helvetica, sans-serif; */
-  /* font-family: 'Chivo', sans-serif; */
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
@@ -98,7 +94,6 @@ a:active {
   height: 100vh;
   width: 100vw;
   background: #202934;
-  /* border: 60px solid #181d23; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -438,13 +433,12 @@ a:active {
   bottom: -300px;
   left: 0;
   /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1888.PNG?raw=true) bottom left repeat-x;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true) bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
   opacity: 0;
   animation: forest-move-in 1000ms 500ms forwards;
-  /* border-bottom: 300px solid #181d23; */
   border-bottom: 300px solid #181d23;
 }
 
@@ -461,15 +455,13 @@ a:active {
 .silhouette {
   position: absolute;
   bottom: 0;
-  margin-bottom: 6.5rem;
   left: 0;
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1892.PNG?raw=true) bottom left no-repeat;
-  /* background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1887.PNG?raw=true) bottom center no-repeat; */
-  width: 50%;
-  height: 50%;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1892.PNG?raw=true) bottom center no-repeat;
+  width: 100%;
+  height: 40%;
   opacity: 0;
   animation: silhouette-move-in 1000ms 800ms forwards;
+  z-index: 1;
 }
 
 @keyframes silhouette-move-in {
@@ -477,7 +469,7 @@ a:active {
     background-position-x: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.99;
     background-position-x: 50%;
     /* background-position-y: 650%; */
   }
@@ -489,8 +481,6 @@ a:active {
   right: 0;
   position: fixed;
   background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
-  /* background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%202.PNG?raw=true) right 150% no-repeat; */
-  /* background-size: 80% 150%; */
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
@@ -509,7 +499,6 @@ a:active {
     
     opacity: 0.75;
     background-position: top right;
-    /* background-position: bottom; */
   }
 }
 
@@ -549,7 +538,6 @@ a:active {
 
 #welcome-section .container h1 .line:last-child {
   margin-left: 2rem;
-  /* margin-bottom: 0.5rem; */
 }
 
 #welcome-section .container .buttons {
@@ -611,10 +599,6 @@ a:active {
     animation: text-fade-in 1000ms 800ms forwards;
   }
 
-  .silhouette {
-    margin-bottom: 2rem;
-  }
-
   @keyframes text-fade-in {
     from {
       right: 0;
@@ -627,6 +611,7 @@ a:active {
 
   .silhouette {
     width: 100%;
+    z-index:0;
   }
 }
 
@@ -654,7 +639,7 @@ a:active {
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
 
   z-index: 5;
-  background: #fafafa url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1900.PNG?raw=true) center right no-repeat;
+  background: #fafafa url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1900.PNG?raw=true) center right no-repeat;
   background-attachment: fixed;
 }
 
@@ -1075,52 +1060,5 @@ input[type="submit"]:focus {
   #contact {
     clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 0 100%);
     padding: 0;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/*****************
- *****************
-   FOOTER STYLES
- *****************
- *****************/
-
-footer {
-  font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 150px;
-  background: #fafafa;
-  z-index: 0;
-}
-
-footer .wrapper {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  max-width: 1400px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media only screen and (max-width: 649px) {
-  footer .wrapper {
-    flex-direction: column;
-  }
-
-  footer .wrapper h3 {
-    padding-bottom: .8rem;
   }
 }
