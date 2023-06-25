@@ -136,7 +136,7 @@ const About = (props) => {
               <li>AGILE Development</li>
               <li>Graphic Design</li>
               <li>
-                convert eFiles in adherence to IRS XML Standardization rules
+                convert eFiles in adherence to the IRS XML Standardization rules
               </li>
             </ul>
           </div>

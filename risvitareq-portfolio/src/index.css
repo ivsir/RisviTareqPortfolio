@@ -461,7 +461,7 @@ a:active {
 .silhouette {
   position: absolute;
   bottom: 0;
-  margin-bottom: 5.5rem;
+  margin-bottom: 6.5rem;
   left: 0;
   /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat; */
   background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1892.PNG?raw=true) bottom left no-repeat;
@@ -489,24 +489,27 @@ a:active {
   right: 0;
   position: fixed;
   background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
-  /* background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%203.PNG?raw=true) right 150% no-repeat; */
+  /* background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%202.PNG?raw=true) right 150% no-repeat; */
+  /* background-size: 80% 150%; */
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
   height: 100%;
   z-index: -1;
   opacity: 0;
-  animation: moon-move-in 1.2s 1s forwards;
+  animation: moon-move-in 1.0s 1s forwards;
 }
 
 @keyframes moon-move-in {
   from {
     opacity: 0;
-    background-position: right 150%;
+    background-position: right 120%;
   }
   to {
-    opacity: 1;
+    
+    opacity: 0.75;
     background-position: top right;
+    /* background-position: bottom; */
   }
 }
 
@@ -609,7 +612,7 @@ a:active {
   }
 
   .silhouette {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   @keyframes text-fade-in {
