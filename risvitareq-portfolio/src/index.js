@@ -362,12 +362,12 @@ const Contact = (props) => {
             <p className="separator" />
             <p className="subtitle">
               Please, use the form below or send an email to {""}
-              <span className="mail">risvi.tareq@clearbluesea.com</span>:
+              <span className="mail">risvi.tareq@clearbluesea.org</span>:
             </p>
           </div>
           <SocialLinks />
         </div>
-        <form id="contact-form" action="#">
+        <form id="contact-form" action="mailto:risvi.tareq@clearbluesea.org">
           <input placeholder="Name" name="name" type="text" required />
           <input placeholder="Email" name="email" type="email" required />
           <textarea placeholder="Message" type="text" name="message" />
@@ -405,7 +405,7 @@ const SocialLinks = (props) => {
         href="https://twitter.com/yagoestevez"
         target="_blank"
         rel="noopener noreferrer"
-        title="Link to author's Twitter profile"
+        title="Link to author's LinkedIn"
       >
         {" "}
         <i className="fab fa-twitter" />

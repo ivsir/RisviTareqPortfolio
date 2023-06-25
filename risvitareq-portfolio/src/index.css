@@ -10,7 +10,8 @@
 }
 
 /* @import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script'; */
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,600&display=swap');
 
 html, body {
   height: 100%;
@@ -21,7 +22,8 @@ body {
   background: #fafafa;
   font-size: 62.5%;
   /* font-family: 'Overlock', Arial, Helvetica, sans-serif; */
-  font-family: 'Chivo', sans-serif;
+  /* font-family: 'Chivo', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
 
@@ -118,7 +120,8 @@ a:active {
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x;
+  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x; */
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1888.PNG?raw=true) bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -458,7 +461,7 @@ a:active {
 .silhouette {
   position: absolute;
   bottom: 0;
-  margin-bottom: 2.25rem;
+  margin-bottom: 5.5rem;
   left: 0;
   /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat; */
   background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1892.PNG?raw=true) bottom left no-repeat;
@@ -476,6 +479,7 @@ a:active {
   to {
     opacity: 1;
     background-position-x: 50%;
+    /* background-position-y: 650%; */
   }
 }
 
@@ -485,7 +489,7 @@ a:active {
   right: 0;
   position: fixed;
   /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun.jpg?raw=true) right 150% no-repeat;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%202.PNG?raw=true) right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
@@ -602,6 +606,10 @@ a:active {
     width: 80%;
     transform: translate(50%, 0);
     animation: text-fade-in 1000ms 800ms forwards;
+  }
+
+  .silhouette {
+    margin-bottom: 1rem;
   }
 
   @keyframes text-fade-in {
