@@ -16,13 +16,13 @@ This is a personalized portfolio created using React and CSS. It is in the style
 <a href="https://ivsir.github.io/React-Portfolio/">This is the link to my WebPage</a>
 <img src="src/Images/portfolio.gif">
 <p>This is the landing page</p>
-<img src="src/images/front page.png">
+<img src="src/Images/front page.png">
 <p>This is the menu</p>
-<img src="src/images/menu.png">
+<img src="src/Images/menu.png">
 <p>This is the about me section.</p>
-<img src="src/images/aboutme.png">
+<img src="src/Images/aboutme.png">
 <p>This is the Portfolio section.</p>
-<img src="src/images/Portfolio.png">
+<img src="src/Images/Portfolio.png">
 
 ## Questions
 <li>https://github.com/ivsir </li>
