@@ -488,8 +488,8 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%202.PNG?raw=true) right 150% no-repeat;
+  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+  /* background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/sun%203.PNG?raw=true) right 150% no-repeat; */
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
