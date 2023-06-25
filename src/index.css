@@ -115,8 +115,7 @@ a:active {
 }
 
 .menu-container::after {
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/master/risvitareq-portfolio/src/Images/IMG_1888.PNG?raw=true) bottom repeat-x;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true) bottom repeat-x;
 }
 
 .menu-container.deactive {
