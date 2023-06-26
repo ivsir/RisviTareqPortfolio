@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ivsir/RisviTareqPortfolio/static/css/main.073893f7.css",
+    "main.js": "/ivsir/RisviTareqPortfolio/static/js/main.488d7ef8.js",
+    "static/js/787.aacab281.chunk.js": "/ivsir/RisviTareqPortfolio/static/js/787.aacab281.chunk.js",
+    "index.html": "/ivsir/RisviTareqPortfolio/index.html",
+    "main.073893f7.css.map": "/ivsir/RisviTareqPortfolio/static/css/main.073893f7.css.map",
+    "main.488d7ef8.js.map": "/ivsir/RisviTareqPortfolio/static/js/main.488d7ef8.js.map",
+    "787.aacab281.chunk.js.map": "/ivsir/RisviTareqPortfolio/static/js/787.aacab281.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073893f7.css",
+    "static/js/main.488d7ef8.js"
+  ]
+}
