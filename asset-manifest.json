@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/RisviTareqPortfolio/static/css/main.75fdefe0.css",
-    "main.js": "/RisviTareqPortfolio/static/js/main.f2f36eab.js",
+    "main.js": "/RisviTareqPortfolio/static/js/main.a1f7c794.js",
     "static/js/787.aacab281.chunk.js": "/RisviTareqPortfolio/static/js/787.aacab281.chunk.js",
     "index.html": "/RisviTareqPortfolio/index.html",
     "main.75fdefe0.css.map": "/RisviTareqPortfolio/static/css/main.75fdefe0.css.map",
-    "main.f2f36eab.js.map": "/RisviTareqPortfolio/static/js/main.f2f36eab.js.map",
+    "main.a1f7c794.js.map": "/RisviTareqPortfolio/static/js/main.a1f7c794.js.map",
     "787.aacab281.chunk.js.map": "/RisviTareqPortfolio/static/js/787.aacab281.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75fdefe0.css",
-    "static/js/main.f2f36eab.js"
+    "static/js/main.a1f7c794.js"
   ]
 }
