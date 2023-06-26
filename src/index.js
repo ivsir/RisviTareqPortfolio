@@ -50,10 +50,10 @@ const Nav = (props) => {
     <React.Fragment>
       <nav id="navbar">
         <div className="nav-wrapper">
-          <p className="brand">
+          <a href="https://www.linkedin.com/in/risvi-tareq-1546621ab/"><p className="brand">
             Risvi
             <strong> Tareq</strong>
-          </p>
+          </p></a>
           <a
             onClick={props.toggleMenu}
             className={
