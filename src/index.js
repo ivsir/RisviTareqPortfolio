@@ -116,7 +116,7 @@ const About = (props) => {
             <p>
               I am currently the webmaster for Clear Blue Sea, a non-profit
               organization. I also produced music profesionally. I have amassed
-              over 40,000,00 streams collectively through all the songs I have
+              over 10,000,000 streams collectively through all the songs I had
               produced. I have marketed my beats on the internet as a side
               hustle and make money from music royalties. I get bored of making
               music sometimes, so I looked to web development to apply my
