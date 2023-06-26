@@ -129,7 +129,7 @@ const About = (props) => {
           </div>
           <div className="desc">
             <h4 className="subtitle">Hard Skills</h4>
-            <ul>
+            <ul className="hard-skills">
               <li>
                 convert eFiles in adherence to the IRS XML Standardization rules
               </li>
@@ -145,7 +145,7 @@ const About = (props) => {
           </div>
           <div className="desc">
             <h4 className="subtitle">Tech Stack</h4>
-            <ul>
+            <ul className="tech-stack">
               <li>HTML/CSS</li>
               <li>Wordpress</li>
               <li>XML</li>

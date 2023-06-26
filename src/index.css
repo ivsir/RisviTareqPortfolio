@@ -9,9 +9,10 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,600&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
   color: #252934;
   background: #fafafa;
   font-size: 62.5%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   overflow-x: hidden;
 }
 
@@ -36,15 +37,6 @@ a:active {
   color: #344467;
 }
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
     MENU STYLES
@@ -56,8 +48,8 @@ a:active {
 .menu-container.active > .overlay {
   position: absolute;
   right: 0;
-  height: calc( 100vh - 120px );
-  width: calc( 100vw - 120px );
+  height: calc(100vh - 120px);
+  width: calc(100vw - 120px);
 }
 
 .menu-container.active > .overlay {
@@ -66,7 +58,7 @@ a:active {
 
 @keyframes overlay-slide-in {
   from {
-    width: calc( 100vw - 120px );
+    width: calc(100vw - 120px);
   }
   to {
     width: 0;
@@ -84,7 +76,7 @@ a:active {
   }
   to {
     left: 0;
-    width: calc( 100vw - 120px );
+    width: calc(100vw - 120px);
   }
 }
 
@@ -103,7 +95,7 @@ a:active {
 
 .menu-container::before,
 .menu-container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   min-height: 100vh;
@@ -115,7 +107,8 @@ a:active {
 }
 
 .menu-container::after {
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true) bottom repeat-x;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true)
+    bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -194,34 +187,34 @@ a:active {
 
 /***** Menu Items: Hover Animation *****/
 .menu-container ul li {
-  border-left: .2rem solid transparent;
+  border-left: 0.2rem solid transparent;
   transition: border-left 200ms;
 }
 
 .menu-container ul li a {
-  font-size: 3rem; 
-  padding-left: .5rem;
+  font-size: 3rem;
+  padding-left: 0.5rem;
 }
 
 .menu-container ul li a::after {
-  content: ' »';
+  content: " »";
   font-size: 2.5rem;
   color: transparent;
   transition: color 200ms;
 }
 
 .menu-container ul li a:hover::after {
-  content: ' »';
+  content: " »";
   color: #344467;
 }
 
 .social {
-  padding: 1rem 0 0 .5rem;
+  padding: 1rem 0 0 0.5rem;
 }
 
 .social a {
   font-size: 1.5rem;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 .menu-container a,
@@ -244,11 +237,11 @@ a:active {
     height: 100vh;
     width: 100vw;
   }
-  
+
   .menu-container.active > .overlay {
     animation: overlay-slide-in 300ms forwards 300ms;
   }
-  
+
   @keyframes overlay-slide-in {
     from {
       width: 100vw;
@@ -257,11 +250,11 @@ a:active {
       width: 0;
     }
   }
-  
+
   .menu-container > .overlay {
     animation: overlay-slide-out 300ms forwards;
   }
-  
+
   @keyframes overlay-slide-out {
     from {
       left: 0;
@@ -273,16 +266,6 @@ a:active {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -330,7 +313,7 @@ a:active {
 .menu-button span::before,
 .menu-button span::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 30px;
   height: 3px;
   background: #fafafa;
@@ -341,7 +324,7 @@ a:active {
   position: relative;
   display: block;
   top: 50%;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
 }
 
 .menu-button span::before {
@@ -358,16 +341,16 @@ a:active {
   background: #d6d7da;
 }
 
-.menu-button.active > span  {
+.menu-button.active > span {
   background: transparent;
 }
 
-.menu-button.active > span::before  {
+.menu-button.active > span::before {
   transform: rotate(-225deg);
   top: 0px;
 }
 
-.menu-button.active > span::after  {
+.menu-button.active > span::after {
   transform: rotate(225deg);
   top: 0px;
 }
@@ -377,16 +360,6 @@ a:active {
     background: #181d23aa;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -406,7 +379,7 @@ a:active {
 }
 
 #welcome-section::before {
-  content: '';
+  content: "";
   position: fixed;
   background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
   background-attachment: fixed;
@@ -432,7 +405,8 @@ a:active {
   bottom: -300px;
   left: 0;
   /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x; */
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true) bottom left repeat-x;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1888.PNG?raw=true)
+    bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -455,7 +429,8 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1892.PNG?raw=true) bottom center no-repeat;
+  background: url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1892.PNG?raw=true)
+    bottom center no-repeat;
   width: 100%;
   height: 40%;
   opacity: 0;
@@ -479,14 +454,15 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true)
+    right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
   height: 100%;
   z-index: -1;
   opacity: 0;
-  animation: moon-move-in 1.0s 1s forwards;
+  animation: moon-move-in 1s 1s forwards;
 }
 
 @keyframes moon-move-in {
@@ -495,7 +471,6 @@ a:active {
     background-position: right 120%;
   }
   to {
-    
     opacity: 0.75;
     background-position: top right;
   }
@@ -532,7 +507,7 @@ a:active {
 }
 
 #welcome-section .container h1 .line:first-child {
-  margin: 0.5rem 0rem 0.5rem 1.5rem
+  margin: 0.5rem 0rem 0.5rem 1.5rem;
 }
 
 #welcome-section .container h1 .line:last-child {
@@ -610,18 +585,9 @@ a:active {
 
   .silhouette {
     width: 100%;
-    z-index:0;
+    z-index: 0;
   }
 }
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -638,7 +604,9 @@ a:active {
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
 
   z-index: 5;
-  background: #fafafa url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1900.PNG?raw=true) center right no-repeat;
+  background: #fafafa
+    url(https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/IMG_1900.PNG?raw=true)
+    center right no-repeat;
   background-attachment: fixed;
 }
 
@@ -699,7 +667,15 @@ a:active {
   border-radius: 2rem;
   background: #ffffffaa;
   padding: 4rem;
-  text-align: justify;
+  /* text-align: justify; */
+}
+#about li {
+  /* list-style: outside; */
+  line-height: 2rem;
+  font-weight: 100;
+  word-spacing: 0.15rem;
+  font-size: larger;
+  list-style-type: circle;
 }
 
 @media only screen and (max-width: 1149px) {
@@ -728,15 +704,6 @@ a:active {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
   PROJECTS STYLES
@@ -748,7 +715,7 @@ a:active {
   font-size: 1.4rem;
   position: relative;
   background: #f0f0f0;
-  background: linear-gradient(215deg, #f0f0f0 0%,#fafafa 100%);
+  background: linear-gradient(215deg, #f0f0f0 0%, #fafafa 100%);
   margin-top: -10rem;
   z-index: 1;
 }
@@ -853,7 +820,7 @@ a:active {
 }
 
 #projects .project-details .icons i {
-  margin-right: .4rem;
+  margin-right: 0.4rem;
   font-weight: normal;
   font-size: 1.4rem;
 }
@@ -875,7 +842,7 @@ a:active {
 
 #projects .project-details .buttons a {
   width: 49%;
-  padding: .5rem;
+  padding: 0.5rem;
   border: none;
   border-bottom: 1px solid #344467;
   color: #252934;
@@ -889,11 +856,10 @@ a:active {
   color: #fafafa;
 }
 #projects .project-details .buttons i {
-  font-size: .8rem;
+  font-size: 0.8rem;
   vertical-align: middle;
-  margin-left: .5rem;;
+  margin-left: 0.5rem;
 }
-
 
 @media only screen and (max-width: 1149px) {
   #projects .project {
@@ -919,14 +885,6 @@ a:active {
   }
 }
 
-
-
-
-
-
-
-
-
 /*****************
  *****************
    CONTACT STYLES
@@ -934,7 +892,9 @@ a:active {
  *****************/
 
 #contact {
-  background: #181d23 url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true) no-repeat right;
+  background: #181d23
+    url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true)
+    no-repeat right;
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
   min-height: 100vh;
@@ -987,10 +947,11 @@ a:active {
   margin-top: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   border: none;
   padding: 1rem;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: "Overlock", Arial, Helvetica, sans-serif;
   width: 100%;
   height: 40%;
   transition: 200ms;
@@ -1042,12 +1003,12 @@ input[type="submit"]:focus {
   font-style: italic;
 }
 
-.mail .at, .mail .dot {
-  font-size: .9rem;
-  margin: 0 .1rem;
+.mail .at,
+.mail .dot {
+  font-size: 0.9rem;
+  margin: 0 0.1rem;
   color: #344467;
 }
-
 
 @media only screen and (max-width: 1149px) {
   #contact .social a {
