@@ -267,7 +267,7 @@ const Projects = (props) => {
           <Project
             title="XML Projects"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/cc.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/XML.png?raw=true"
             }
             tech="XML VS Code"
             link="https://github.com/ivsir/XMLTaxProjects"
