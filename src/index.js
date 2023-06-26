@@ -265,6 +265,22 @@ const Projects = (props) => {
             </p>
           </Project>
           <Project
+            title="XML Projects"
+            img={
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/cc.png?raw=true"
+            }
+            tech="XML VS Code"
+            link="https://github.com/ivsir/XMLTaxProjects"
+            repo="https://github.com/ivsir/XMLTaxProjects"
+          >
+            <small>
+              Built using Adobe Acrobat, XML, VS Code and Git
+            </small>
+            <p>
+              I converted a filled out 1099-R tax form and W2 Form in compliance with the IRS XML eFile Standardization. I used the proper abbreviations for the classes and referred to the IRS schema from the US Treasury.
+            </p>
+          </Project>
+          <Project
             title="Clear Blue Sea"
             img={
               "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/clearbluesea.png?raw=true"
@@ -421,7 +437,7 @@ const SocialLinks = (props) => {
   );
 };
 
-/***********************
+/***********************npm start
     Main Component
    ***********************/
 
