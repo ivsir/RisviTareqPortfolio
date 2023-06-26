@@ -283,7 +283,7 @@ const Projects = (props) => {
           <Project
             title="Clear Blue Sea"
             img={
-              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/clearbluesea.png?raw=true"
+              "https://github.com/ivsir/RisviTareqPortfolio/blob/main/src/Images/cbs.jpeg?raw=true"
             }
             tech="wordpress"
             link="https://dev.clearbluesea.org/"
