@@ -13,7 +13,7 @@ This is a personalized portfolio created using React and CSS. It is in the style
 </nav>
 
 ## How to Use this Project
-<a href="https://ivsir.github.io/React-Portfolio/">This is the link to my WebPage</a>
+<a href="https://ivsir.github.io/RisviTareqPortfolio/">This is the link to my WebPage</a>
 <img src="src/Images/portfolio.gif">
 <p>This is the landing page</p>
 <img src="src/Images/front page.png">
